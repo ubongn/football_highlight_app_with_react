@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navabar = () => {
   return (
-    <div>Football Update ⚽</div>
+    <div className='navbar'>Football Update ⚽</div>
   )
 }
 
