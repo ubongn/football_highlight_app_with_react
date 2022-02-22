@@ -8,7 +8,7 @@ const Content = () => {
   useEffect(() => {
     axios({
       method: "GET",
-      url: `https://www.scorebat.com/video-api/v3/feed/?token=${process.env.REACT_APP_SECRET_NAME}`,
+      url: `https://www.scorebat.com/video-api/v3/feed/?token=${process.env.REACT_APP_SECRET_TOKEN}`,
     })
       .then((res) => {
         console.log(res.data);
